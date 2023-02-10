@@ -1,0 +1,460 @@
+/* reset css */
+:root {
+    --primary--color: #ec411f;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/Logo-Background/Auth_Image.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+}
+
+/* Header column */
+
+#header__column {
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    color: rgb(166, 185, 185);
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: var(--primary--color);
+    border-bottom: 3px solid #333;
+}
+
+.admin__name {
+    display: flex;
+}
+
+.admin__name span{
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 115px;
+    height: 70px;
+}
+
+.logo__name {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.admin {
+    padding: 20px 0 20px 20px;
+    border-bottom: 3px solid #333;
+}
+
+.home {
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controller__list {
+    padding-left: 10px;
+    position: relative;
+}
+
+.controller__item {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.controller__item span {
+    margin-left: 10px;
+}
+
+.controller__item:hover {
+    color: var(--primary--color);
+    cursor: pointer;
+    background-color: #333;
+}
+
+/* MANAGE USER */
+
+#manage__user {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    min-height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__user {
+    margin-left: 20px;
+    display: none;
+}
+
+#form__update {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+#manage__artists {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    max-height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__artists {
+    margin-left: 20px;
+    display: none;
+}
+
+#manage__song {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    max-height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__song {
+    margin-left: 20px;
+    display: none;
+}
+
+#manage__release {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__release {
+    margin-left: 20px;
+    display: none;
+}
+
+#manage__posts {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    max-height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__post {
+    margin-left: 20px;
+    display: none;
+}
+
+#manage__category {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+#add__cate {
+    margin-left: 20px;
+    display: none;
+}
+
+#manage__contact {
+    position: absolute;
+    margin-left: 97%;
+    width: 400%;
+    top: -68%;
+    height: 110vh;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: #fff;
+    display: none;
+    overflow-y: auto;
+}
+
+.err {
+    margin: 10px 0 40px 10px;
+    color: red;
+    font-weight: 800;
+}
+
+.form__add div{
+    margin-bottom: 10px;
+}
+
+.form__add label {
+    width: 24%;
+    display: inline-block;
+}
+
+input {
+    font-size: 0.8rem;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px;
+    width: 400px;
+}
+
+.textarea {
+    font-size: 0.8rem;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px;
+    width: 400px;
+}
+
+.label__textarea {
+    display: flex;
+    align-items: center;
+}
+
+.form__add {
+    margin-left: 20px;
+}
+
+select {
+    font-size: 0.8rem;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    width: 408px;
+    margin-left: -5px;
+}
+
+option {
+    background: transparent;
+    color: #333;
+}
+
+.btn__add {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.btn__add:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.559);
+}
+
+.manage {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.manage .btn__manage {
+    min-width: 180px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hover {
+    background-color: #333;
+    color: var(--primary--color);
+}
+
+.hearding {
+    text-align: center;
+    padding: 40px 0;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.formheading {
+    margin-left: 20px;
+    padding: 20px 0;
+    user-select: none;
+}
+
+#manage__song img {
+    width: 200px;
+}
+
+#manage__user img {
+    width: 200px;
+}
+
+#manage__artists img {
+    width: 200px;
+}
+
+#manage__posts img {
+    width: 200px;
+}
+
+
+#table__song {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#table__release {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#table__posts {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#table__user {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#table__artists {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#table__category {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#table__contact {
+    border: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    overflow: hidden;
+    height: 100px;
+    white-space: nowrap;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+th {
+    font-size: 0.8rem;
+    font-weight: 1000;
+}
+
+.posts__title {
+    overflow: hidden;
+    height: 140px;
+    white-space: nowrap;
+}
+.posts__content {
+    overflow: hidden;
+    height: 140px;
+    white-space: nowrap;
+}
+
+tbody {
+    font-size: 0.8rem;
+    color: #f1e7e7;
+}
+
+.btn__option {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 4px;
+}
+
+.btn__option:hover {
+    color: rgba(255, 255, 255, 0.724);
+    cursor: pointer;
+}
+
+.back_back--end {
+    font-size: 1.5rem;
+}
+
+.btn_ok {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(51, 51, 51, 0.605);
+}
+
+.signout {
+    position: fixed;
+    left: 16%;
+    top: 14.5%;
+    z-index: 2;
+    color: antiquewhite;
+}
+
+.btn_signout {
+    padding: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.btn_signout:hover {
+    background-color: rgba(250, 235, 215, 0.717);
+}

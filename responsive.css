@@ -1,0 +1,23 @@
+/* MOBILE and TABLET: width <1024 */
+@media only screen and (max-width: 78.125em) {
+    #header{
+        height: 86px;
+    }
+    #nav div:nth-child(2) {
+        display: none;
+    }
+
+    .nav__icon {
+        display: none;
+    }
+}
+
+/* MOBILE: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    
+}
+
+/* TABLET: 740px <= width < 1024px  /// soundblast: 1245px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
